@@ -1,0 +1,37 @@
+[ moleculetype ]
+  HMMM         1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SN1a   0    HMMM   COR1    1    0
+   2  SN1a   0    HMMM   COR2    2    0
+   3  SN1a   0    HMMM   COR3    3    0
+   4  SN3a   0    HMMM   ARM     4    0
+   5  SN3a   0    HMMM   ARM     5    0
+   6  SN3a   0    HMMM   ARM     6    0
+   7  SN3a   0    HMMM   ARM     7    0
+   8  SN3a   0    HMMM   ARM     8    0
+   9  SN3a   0    HMMM   ARM     9    0
+
+[ constraints ]
+; i  j  funct length
+  1  2   1     0.233  1000000
+  2  3   1     0.233  1000000
+  3  1   1     0.233  1000000
+
+[ bonds ]
+  1  4   1     0.351  5650
+  1  5   1     0.351  5650
+  2  6   1     0.351  5650
+  2  7   1     0.351  5650
+  3  8   1     0.351  5650
+  3  9   1     0.351  5650
+  
+[ angles ]
+  4   1   5   2   75.6   150
+  6   2   7   2   75.6   150
+  8   3   9   2   75.6   150
+
+[ exclusions ]
+  1   2   3
+  2   3

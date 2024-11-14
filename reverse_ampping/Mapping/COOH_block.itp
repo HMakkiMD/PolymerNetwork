@@ -1,0 +1,139 @@
+[ moleculetype ]
+  COOH 3
+
+; Force constant parameters
+#define dfTPP_bon_OH_HO_254       1    0.095  4.63e+05
+#define dfTPP_bon_OH_CT_208       1    0.141  2.68e+05
+#define dfTPP_bon_HA_CA_135       1    0.108  3.07e+05
+#define dfTPP_bon_HC_CT_191       1    0.109  2.85e+05
+#define dfTPP_bon_CT_CT_187       1    0.153  2.24e+05
+#define dfTPP_bon_CA_CA_92        1    0.140  3.92e+05
+#define dfTPP_bon_OS_CT_213       1    0.141  2.68e+05
+#define dfTPP_bon_OH_C_42         1    0.136  3.77e+05
+#define dfTPP_bon_OS_C_2_54       1    0.133  1.79e+05
+#define dfTPP_bon_O_3_C_38        1    0.123  4.77e+05
+#define dfTPP_bon_CT_C_19         1    0.152  2.65e+05
+#define dfTPP_bon_O_2_C_2_39      1    0.123  4.77e+05
+#define dfTPP_bon_C_2_CT_20       1    0.152  2.65e+05
+#define dfTPP_bon_CT_CA_108       1    0.151  2.65e+05
+#define dfTPP_ang_HC_CT_CT_507    1  110.7    313.8   
+#define dfTPP_ang_HC_CT_HC_555    1  107.8    276.1   
+#define dfTPP_ang_HC_CT_CA_490    1  109.5    292.9   
+#define dfTPP_ang_CT_CT_CA_488    1  114.0    527.2   
+#define dfTPP_ang_CT_CT_CT_499    1  112.7    488.3   
+#define dfTPP_ang_CA_CA_CA_213    1  120.0    527.2   
+#define dfTPP_ang_CT_CA_CA_227    1  120.0    585.8   
+#define dfTPP_ang_HA_CA_CA_229    1  120.0    292.9   
+#define dfTPP_ang_C_2_CT_CT_456   1  111.1    527.2   
+#define dfTPP_ang_O_2_C_2_CT_92   1  120.4    669.4   
+#define dfTPP_ang_OS_C_2_CT_732   1  111.4    677.8   
+#define dfTPP_ang_O_2_C_2_OS_728  1  123.4    694.5   
+#define dfTPP_ang_C_2_OS_CT_730   1  116.9    694.5   
+#define dfTPP_ang_OS_CT_HC_592    1  109.5    292.9   
+#define dfTPP_ang_HC_CT_C_2_469   1  109.5    292.9   
+#define dfTPP_ang_OS_CT_CT_539    1  109.5    418.4   
+#define dfTPP_ang_OH_CT_HC_587    1  109.5    292.9   
+#define dfTPP_ang_OH_CT_CT_535    1  109.5    418.4   
+#define dfTPP_ang_HO_OH_CT_721    1  108.5    460.2   
+#define dfTPP_ang_HC_CT_C_468     1  109.5    292.9   
+#define dfTPP_ang_CT_CT_C_455     1  111.1    527.2   
+#define dfTPP_ang_O_3_C_OH_196    1  121.0    669.4   
+#define dfTPP_ang_OH_C_CT_116     1  108.0    585.8   
+#define dfTPP_ang_O_3_C_CT_91     1  120.4    669.4   
+#define dfTPP_ang_HO_OH_C_717     1  113.0    292.9   
+#define dfTPP_dih_HO_OH_CT_HC_528 3  +0.9  +2.8  +0.0  -3.8  +0.0  +0.0 ;3
+#define dfTPP_dih_HO_OH_CT_CT_318 3  +1.7  +5.6  +6.1  +2.2  +0.0  +0.0 ;3
+#define dfTPP_dih_OH_CT_CT_HC_517 3  +1.0  +2.9  +0.0  -3.9  +0.0  +0.0 ;3
+#define dfTPP_dih_OS_CT_CT_OH_594 3  +9.0  -9.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CT_HC_510 3  +0.6  +1.9  +0.0  -2.5  +0.0  +0.0 ;3
+#define dfTPP_dih_OS_CT_CT_HC_518 3  +1.0  +2.9  +0.0  -3.9  +0.0  +0.0 ;3
+#define dfTPP_dih_HA_CA_CA_HA_642 3 +30.3  +0.0 -30.3  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HA_CA_CA_CA_642 3 +30.3  +0.0 -30.3  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_CA_CA_CA_CA_642 3 +30.3  +0.0 -30.3  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_C_2_OS_CT_CT_200 3  -2.2  +5.2  +0.5  -3.5  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_OS_C_2_201 3  +0.4  +1.2  +0.0  -1.7  +0.0  +0.0 ;3
+#define dfTPP_dih_O_3_C_OH_HO_557 3 +23.0  +0.0 -23.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HO_OH_C_CT_235  3 +26.1  -3.1 -23.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_O_2_C_2_OS_CT_367 3 +21.4  +0.0 -21.4  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_C_2_OS_CT_373 3 +31.2  -9.8 -21.4  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_OH_C_CT_HC_497  3  +0.0  +0.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_OH_C_CT_CT_263  3  +5.3  +0.7  -2.3  -3.8  +0.0  +0.0 ;3
+#define dfTPP_dih_O_3_C_CT_HC_500 3  +0.0  +0.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_O_3_C_CT_CT_267 3  +2.3  +0.0  -2.3  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CT_CT_287 3  +0.6  +1.9  +0.0  -2.5  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CT_C_2_199 3  -0.2  -0.5  +0.0  +0.6  +0.0  +0.0 ;3
+#define dfTPP_dih_OS_C_2_CT_CT_327 3  -1.2  -3.5  +0.0  +4.6  +0.0  +0.0 ;3
+#define dfTPP_dih_OS_C_2_CT_HC_535 3  +0.3  +0.8  +0.0  -1.1  +0.0  +0.0 ;3
+#define dfTPP_dih_O_2_C_2_CT_CT_328 3  +3.1  -3.8  -5.1  +5.8  +0.0  +0.0 ;3
+#define dfTPP_dih_O_2_C_2_CT_HC_536 3  +0.0  +0.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CA_CA_96  3  +0.0  +0.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_CT_CA_CA_94  3  +0.0  +0.0  +0.0  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CT_C_27   3  -0.2  -0.6  +0.0  +0.8  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_CT_CT_C_26   3  -5.0  +6.3  +1.3  -2.6  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_CT_CT_CT_284 3  +2.9  -1.5  +0.2  -1.7  +0.0  +0.0 ;3
+#define dfTPP_dih_C_2_CT_CT_CT_198 3  -4.2  +7.2  +1.9  -4.9  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_CT_CT_CA_120 3  +2.9  -1.5  +0.2  -1.7  +0.0  +0.0 ;3
+#define dfTPP_dih_HC_CT_CT_CA_121 3  +1.0  +2.9  +0.0  -3.9  +0.0  +0.0 ;3
+#define dfTPP_dih_CT_OS_C_2_CT_373 3 +31.2  -9.8 -21.4  +0.0  +0.0  +0.0 ;3
+#define dfTPP_dih_OS_CT_CT_CT_296 3  -2.8  -2.8  +0.0  +0.0  +0.0  +0.0 ;3
+#define improper_O_C_X_Y    4    180.0     43.93200   2
+#define improper_Z_CA_X_Y   4    180.0      4.60240   2
+[ atoms ]
+  1  opls_136   1  C2H3C C26A   30  -0.285938   12.011000 ; [ CT]  alkane CH2 
+  2  opls_140   1  C2H3C H39A   30   0.093884    1.008000 ; [ HC]  alkane H.
+  3  opls_140   1  C2H3C H40A   30   0.101737    1.008000 ; [ HC]  alkane H.
+  4  opls_136   1  C2H3C C27A   31   0.096604   12.011000 ; [ CT]  alkane CH2 
+  5  opls_140   1  C2H3C H41A   32   0.024087    1.008000 ; [ HC]  alkene H (H-C=)  
+  6  opls_267   1  COOH  C28A   33   0.591353   12.011000 ; [  C]  Co in CCOOH carboxylic acid 
+  7  opls_269   1  COOH  O8A    33  -0.507925   15.999400 ; [O_3]  Oc in CCOOH neutral; use #135-#140
+  8  opls_268   1  COOH  O9A    33  -0.510992   15.999400 ; [ OH]  Oh in CCOOH R in RCOOH is
+  9  opls_270   1  COOH  H42A   34   0.39719     1.008000 ; [ HO]  H  in CCOOH
+
+[ bonds ]
+  9   8  dfTPP_bon_OH_HO_254
+  4   5  dfTPP_bon_HC_CT_191
+  3   1  dfTPP_bon_HC_CT_191
+  1   2  dfTPP_bon_HC_CT_191
+  4   1  dfTPP_bon_CT_CT_187
+  8   6  dfTPP_bon_OH_C_42
+  7   6  dfTPP_bon_O_3_C_38
+  6   4  dfTPP_bon_CT_C_19
+
+[ angles ]
+  3   1   4  dfTPP_ang_HC_CT_CT_507
+  2   1   4  dfTPP_ang_HC_CT_CT_507
+  1   4   5  dfTPP_ang_HC_CT_CT_507
+  2   1   3  dfTPP_ang_HC_CT_HC_555
+  5   4   6  dfTPP_ang_HC_CT_C_468
+  1   4   6  dfTPP_ang_CT_CT_C_455
+  7   6   8  dfTPP_ang_O_3_C_OH_196
+  4   6   8  dfTPP_ang_OH_C_CT_116
+  4   6   7  dfTPP_ang_O_3_C_CT_91
+  6   8   9  dfTPP_ang_HO_OH_C_717
+
+[ dihedrals ]
+  5   4   1   3  dfTPP_dih_HC_CT_CT_HC_510
+  5   4   1   2  dfTPP_dih_HC_CT_CT_HC_510
+  9   8   6   7  dfTPP_dih_O_3_C_OH_HO_557
+  9   8   6   4  dfTPP_dih_HO_OH_C_CT_235
+  8   6   4   5  dfTPP_dih_OH_C_CT_HC_497
+  8   6   4   1  dfTPP_dih_OH_C_CT_CT_263
+  7   6   4   5  dfTPP_dih_O_3_C_CT_HC_500
+  7   6   4   1  dfTPP_dih_O_3_C_CT_CT_267
+  6   4   1   3  dfTPP_dih_HC_CT_CT_C_27
+  6   4   1   2  dfTPP_dih_HC_CT_CT_C_27
+
+[ dihedrals ]
+  4   8   6   7  improper_O_C_X_Y
+
+[ pairs ]
+  9   7  1
+  9   4  1
+  8   5  1
+  8   1  1
+  7   5  1
+  7   1  1
+  6   3  1
+  6   2  1
+  5   3  1
+  5   2  1

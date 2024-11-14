@@ -1,0 +1,13 @@
+[ molecule ]
+PARM 
+
+[ martini ]
+PARM 
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+  1    C4P   PARM 
+  2    H1P   PARM 
+  3    H2P   PARM 

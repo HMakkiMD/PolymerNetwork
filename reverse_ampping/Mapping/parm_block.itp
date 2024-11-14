@@ -1,0 +1,17 @@
+[ moleculetype ]
+  PARM   3
+[ atoms ]
+  1  opls_908   1  PARM    C4P      1   0.25043   12.011000 ; [ CT]  CH2(N) tertiary  aliphatic amines, H(C) is #911
+  2  opls_911   1  PARM    H1P      1   0.0721     1.008000 ; [ HC]  H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+  3  opls_911   1  PARM    H2P      1   0.07747    1.008000 ; [ HC]  H(C) for C bonded to N in amines, diamines (aziridine H2,H3)
+
+[ bonds ]
+  2   1  dfTPP_bon_HC_CT_191
+  3   1  dfTPP_bon_HC_CT_191
+
+[ angles ]
+  2   1   3  dfTPP_ang_HC_CT_HC_555
+
+[ dihedrals ]
+
+[ pairs ]

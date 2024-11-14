@@ -1,0 +1,7 @@
+1   15   500   98   ROH
+acr-martini.itp   HMMM-martini.itp
+300   840
+ROH   1   COOH  1  ARM   1
+ROH    ARM    0.3895   0.4305  0.50   TC2   TN3a    0.28    13000
+COOH   ARM    0.3895   0.4305  0.50   TN6a  TN3a    0.22    63000
+ARM    ARM    0.3895   0.4305  0.01   TN1   TN1     0.064   90000

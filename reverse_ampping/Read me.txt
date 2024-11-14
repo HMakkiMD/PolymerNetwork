@@ -1,0 +1,1 @@
+This files are for L-6OH system. Files in the 'mapping' folder should be modified based on your system

@@ -1,0 +1,5 @@
+SN4a    TC2    TN3a    2    111    75
+TC2     TN3a   SN1a    2    132    50
+TC2     TN6a   TN3a    2    116   110
+TN6a    TN3a   SN1a    2    159   150
+SN1a    TN1    TN1     2    145   450

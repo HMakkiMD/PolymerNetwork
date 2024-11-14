@@ -1,0 +1,26 @@
+[ molecule ]
+ARM 
+
+[ martini ]
+ARM 
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+  1    C4M   ARM  
+  2    H1M   ARM  
+  3    H2M   ARM  
+  4    O1M   ARM  
+  5    C5M   ARM  
+  6    H3M   ARM  
+  7    H4M   ARM 
+  8    H5M   ARM 
+[ out ]
+C5M  O1M  C4M
+H3M  O1M  C4M
+H4M  O1M  C4M
+H5M  O1M  C4M
+C4M  O1M  C5M
+H1M  O1M  C5M
+H2M  O1M  C5M

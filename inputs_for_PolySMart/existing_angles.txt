@@ -1,0 +1,5 @@
+TN3a   SN1a   TN3a   2   63   3000
+TN3a   SN1a   SN3a   2   67    600
+TN1    SN1a   SN3a   2   64    600
+TN1    SN1a   TN1    2   65   3000
+TN1    SN1a   TN3a   2   68    600

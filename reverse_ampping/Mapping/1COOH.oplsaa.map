@@ -1,0 +1,21 @@
+[ molecule ]
+1COOH
+
+[ martini ]
+C2H3C  1COOH
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+  1    C26A  C2H3C
+  2    H39A  C2H3C
+  3    H40A  C2H3C  
+  4    C27A  C2H3C   C2H3C  1COOH
+  5    H41A  C2H3C   C2H3C  1COOH
+  6    C28A  1COOH   1COOH  C2H3C
+  7    O8A   1COOH
+
+[ out ]
+C26A  C27A  C28A   H41A
+H41A  C27A  C26A   C28A

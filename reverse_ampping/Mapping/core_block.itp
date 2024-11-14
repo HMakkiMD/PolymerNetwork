@@ -1,0 +1,85 @@
+[ moleculetype ]
+  COR 3
+#define dfTPP_bon_HC_CT_191       1    0.10900    284512.0   ;1
+#define dfTPP_bon_OS_CT_213       1    0.14100    267776.0   ;1
+#define dfTPP_bon_NT_CT_78        1    0.14480    319657.6   ;1
+#define dfTPP_bon_NC_CQ_182       1    0.13240    420073.6   ;1
+#define dfTPP_bon_NT_CQ_1         1    0.13580    237717     ;1
+#define dfTPP_ang_NC_CQ_NC_442    1    129.100    585.760    ;2
+#define dfTPP_ang_CQ_NC_CQ_709    1    118.600    585.760    ;2
+#define dfTPP_ang_CT_NT_CT_552    1    107.200    433.462    ;2
+#define dfTPP_ang_HC_CT_HC_555    1    107.800    276.144    ;2
+#define dfTPP_ang_NT_CT_HC_584    1    109.500    292.880    ;2
+#define dfTPP_ang_OS_CT_HC_592    1    109.500    292.880    ;2
+#define dfTPP_ang_CT_OS_CT_757    1    109.500    502.080    ;2
+#define dfTPP_ang_NT_CQ_NC_1      1    118.200    494.540    ;2
+#define dfTPP_ang_CT_NT_CQ_1      1    122.000    445.130    ;2
+#define dfTPP_ang_OS_CT_NT_1      1    111.5      537        ;2
+#define dfTPP_dih_HC_CT_OS_CT_362 3  1.58992   4.76976   0.00000  -6.35968   0.00000   0.00000 ;3
+#define dfTPP_dih_HC_CT_NT_CT_347 3  1.17152   3.51456   0.00000  -4.68608   0.00000   0.00000 ;3
+#define dfTPP_dih_NT_CQ_NC_CQ_664 3  31.7984   0.00000  -31.7984   0.00000   0.00000   0.00000 ;3
+#define dfTPP_dih_NC_CQ_NC_CQ_664 3  15.0624   0.00000  -15.0624   0.00000   0.00000   0.00000 ;3
+#define dfTPP_dih_NT_CT_OS_CT_1   3  5.0793    14.056   -0.5291   -18.633    0.1588    0.00000 ;3
+#define dfTPP_dih_HC_CT_NT_CQ_1   3  0.9328   -2.7211    0.0394    3.6618    0.0807    0.00000 ;3
+#define dfTPP_dih_OS_CT_NT_CT_1   3  1.4986    4.1425    0.006    -5.5491    0         0       ;3
+#define dfTPP_dih_OS_CT_NT_CQ_1   3  2.9377    11.371    1.6575   -14.732   -0.945    -0.5048  ;3
+#define dfTPP_dih_NC_CQ_NT_CT_1   3  26.4840   0.00000  -35.4170  -0.03000   9.00820   0.03000 ;3
+[ atoms ]
+  1  opls_642   1  COR1   C1M      1   0.7557     12.011000 
+  2  opls_641   1  COR1   N1M      2  -0.65       14.006700 
+  3  opls_902   1  COR1   N2M      3  -0.5057     14.006700 
+  4  opls_642   1  COR2   C2M      4   0.7557     12.011000 
+  5  opls_641   1  COR2   N3M      5  -0.65       14.006700 
+  6  opls_902   1  COR2   N4M      6  -0.5057     14.006700 
+  7  opls_642   1  COR3   C3M      7   0.7557     12.011000 
+  8  opls_641   1  COR3   N5M      8  -0.65       14.006700 
+  9  opls_902   1  COR3   N6M      9  -0.5057     14.006700 
+[ bonds ]
+  1   3  dfTPP_bon_NT_CQ_1
+  4   6  dfTPP_bon_NT_CQ_1
+  7   9  dfTPP_bon_NT_CQ_1
+  1   2  dfTPP_bon_NC_CQ_182
+  2   4  dfTPP_bon_NC_CQ_182
+  5   4  dfTPP_bon_NC_CQ_182
+  7   5  dfTPP_bon_NC_CQ_182
+  7   8  dfTPP_bon_NC_CQ_182
+  8   1  dfTPP_bon_NC_CQ_182
+[ angles ]
+  3   1   2  dfTPP_ang_NT_CQ_NC_1
+  3   1   8  dfTPP_ang_NT_CQ_NC_1
+  6   4   2  dfTPP_ang_NT_CQ_NC_1
+  6   4   5  dfTPP_ang_NT_CQ_NC_1
+  9   7   5  dfTPP_ang_NT_CQ_NC_1
+  9   7   8  dfTPP_ang_NT_CQ_NC_1
+  2   4   5  dfTPP_ang_NC_CQ_NC_442
+  5   7   8  dfTPP_ang_NC_CQ_NC_442
+  8   1   2  dfTPP_ang_NC_CQ_NC_442
+  1   2   4  dfTPP_ang_CQ_NC_CQ_709
+  4   5   7  dfTPP_ang_CQ_NC_CQ_709
+  7   8   1  dfTPP_ang_CQ_NC_CQ_709
+[ dihedrals ]
+  3   1   2   4  dfTPP_dih_NT_CQ_NC_CQ_664
+  7   8   1   3  dfTPP_dih_NT_CQ_NC_CQ_664
+  6   4   2   1  dfTPP_dih_NT_CQ_NC_CQ_664
+  7   5   4   6  dfTPP_dih_NT_CQ_NC_CQ_664
+  9   7   8   1  dfTPP_dih_NT_CQ_NC_CQ_664
+  4   5   7   9  dfTPP_dih_NT_CQ_NC_CQ_664
+  2   4   5   7  dfTPP_dih_NC_CQ_NC_CQ_664
+  7   8   1   2  dfTPP_dih_NC_CQ_NC_CQ_664
+  5   4   2   1  dfTPP_dih_NC_CQ_NC_CQ_664
+  1   8   7   5  dfTPP_dih_NC_CQ_NC_CQ_664
+  8   1   2   4  dfTPP_dih_NC_CQ_NC_CQ_664
+  4   5   7   8  dfTPP_dih_NC_CQ_NC_CQ_664
+[ pairs ]
+  3   4   1
+  7   3   1
+  6   1   1
+  7   6   1
+  9   1   1
+  4   9   1
+  2   7   1
+  7   2   1
+  5   1   1
+  1   5   1
+  8   4   1
+  4   8   1

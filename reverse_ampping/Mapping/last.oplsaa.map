@@ -1,0 +1,105 @@
+[ molecule ]
+LAS
+
+[ martini ]
+C2H33  C2H1  C2H2M  C2H2E  C3H5  COOC  C2H31 COO1 ROH  C2H4E  COO2  C4H9
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+   1    C1A    C2H33
+   2    H1A    C2H33
+   3    H2A    C2H33
+   4    C2A    C2H33    C2H33  C2H1
+   5    H4A    C2H33    
+   6    C3A    C2H1     C2H1   C2H2E
+   7    C4A    C2H1     C2H1   C2H2M
+   8    H5A    C2H1     
+   9    C5A    C2H2M    C2H2M  C2H1
+  10    H6A    C2H2M    
+  11    C6A    C2H2M    C2H2M  C2H2E
+  12    H7A    C2H2M    
+  13    C7A    C2H2E    C2H2E  C2H2M
+  14    H8A    C2H2E    
+  15    C8A    C2H2E    C2H2E  C2H1
+  16    H9A    C2H2E    
+  17    C9A    C3H5     C3H5   C2H33
+  18    H10A   C3H5     C3H5   C2H33
+  19    H11A   C3H5     C3H5   C2H33
+  20    C10A   C3H5     
+  21    C11A   C3H5     
+  22    H12A   C3H5     
+  23    H13A   C3H5     
+  24    H14A   C3H5     
+  25    C12A   COOC     C3H5
+  26    O1A    COOC     C3H5
+  27    O2A    COOC
+  28    C13A   COOC
+  29    H15A   COOC
+  30    H16A   COOC
+  31    H17A   COOC
+  32    C14A   C2H31    C2H31  COOC
+  33    H18A   C2H31    C2H31  COOC
+  34    H19A   C2H31    C2H31  COOC
+  35    C15A   C2H31    
+  36    H20A   C2H31    
+  37    C16A   COO1     COO1   C2H31
+  38    O3A    COO1     
+  39    O4A    COO1     COO1   ROH
+  40    C17A   ROH      COO1
+  41    H21A   ROH      COO1
+  42    H22A   ROH      COO1
+  43    C18A   ROH
+  44    H23A   ROH
+  45    H24A   ROH
+  46    O5A    ROH
+  47    H25A   ROH
+  48    C19A   C2H4E   C2H4E  C2H31
+  49    H26A   C2H4E   C2H4E  C2H31
+  50    H27A   C2H4E   C2H4E  C2H31
+  51    C20A   C2H4E
+  52    H28A   C2H4E
+  53    H29A   C2H4E
+  54    C21A   COO2    COO2   C2H4E
+  55    O6A    COO2    
+  56    O7A    COO2    
+  57    C22A   C4H9    COO2
+  58    H30A   C4H9    COO2
+  59    H31A   C4H9    COO2
+  60    C23A   C4H9    C4H9   COO2 
+  61    H32A   C4H9    C4H9   COO2
+  62    H33A   C4H9    C4H9   COO2
+  63    C24A   C4H9
+  64    H34A   C4H9
+  65    H35A   C4H9
+  66    C25A   C4H9
+  67    H36A   C4H9
+  68    H37A   C4H9
+  69    H38A   C4H9
+   
+ [ chiral ]
+H4A  C2A  C1A  C3A  C9A 
+H20A  C15A  C14A  C16A  C19A 
+
+[ out ]
+C1A  C2A  C3A  C9A
+H1A  C2A  C3A  C9A
+H2A  C2A  C3A  C9A
+C11A C10A C9A  C14A
+H12A C10A C9A  C14A
+H13A C10A C9A  C14A
+H14A C10A C9A  C14A
+
+[ trans ]
+H5A  C4A  C3A  C8A
+H6A  C5A  C4A  C3A
+H7A  C6A  C5A  C4A 
+H8A  C7A  C6A  C5A 
+H9A  C8A  C7A  C6A
+C13A  O2A  C12A  C10A
+H15A  O2A  C12A  C10A
+H16A  O2A  C12A  C10A
+H17A  O2A  C12A  C10A
+C23A  C22A  O7A  C21A
+C25A  C24A  C23A  C22A

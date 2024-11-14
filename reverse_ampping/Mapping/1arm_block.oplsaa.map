@@ -1,0 +1,16 @@
+[ molecule ]
+1ARM 
+
+[ martini ]
+1ARM 
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+  1    C4M   1ARM 
+  2    H1M   1ARM 
+  3    H2M   1ARM 
+  4    O1M   1ARM 
+[ out ]
+;O1M  C4M  H1M  H2M

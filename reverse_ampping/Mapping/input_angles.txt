@@ -1,0 +1,25 @@
+#define dfTPP_ang_CT_CT_CT_499    1  112.7    488.3   
+#define dfTPP_ang_HC_CT_CT_507    1  110.7    313.8    
+#define dfTPP_ang_CT_CT_C_455     1  111.1    527.2    
+#define dfTPP_ang_C_2_CT_CT_456   1  111.1    527.2
+#define dfTPP_ang_NT_CT_NT_1      1    111.275    230
+#define dfTPP_ang_O_2_C_2_OS_728  1  123.4    694.5 
+#define dfTPP_ang_CT_OS_CT_757    1    109.500    502.080
+opls_140  opls_136  opls_136  dfTPP_ang_HC_CT_CT_507
+opls_136  opls_136  opls_136  dfTPP_ang_CT_CT_CT_499
+opls_465  opls_136  opls_136  dfTPP_ang_C_2_CT_CT_456
+opls_267  opls_136  opls_136  dfTPP_ang_CT_CT_C_455
+opls_180  opls_908  opls_902  dfTPP_ang_OS_CT_NT_1
+opls_467  opls_908  opls_902  dfTPP_ang_OS_CT_NT_1
+opls_911  opls_908  opls_902  dfTPP_ang_NT_CT_HC_584
+opls_908  opls_902  opls_642  dfTPP_ang_CT_NT_CQ_1
+opls_908  opls_902  opls_908  dfTPP_ang_CT_NT_CT_552
+opls_902  opls_908  opls_902  dfTPP_ang_NT_CT_NT_1     
+opls_466  opls_465  opls_467  dfTPP_ang_O_2_C_2_OS_728
+opls_467  opls_465  opls_136  dfTPP_ang_OS_C_2_CT_732
+opls_465  opls_467  opls_908  dfTPP_ang_C_2_OS_CT_730
+opls_136  opls_467  opls_908  dfTPP_ang_CT_OS_CT_757
+opls_140  opls_136  opls_467  dfTPP_ang_OS_CT_HC_592
+opls_468  opls_136  opls_467  dfTPP_ang_OS_CT_CT_539
+opls_490  opls_136  opls_467  dfTPP_ang_OS_CT_CT_539
+opls_465  opls_136  opls_136  dfTPP_ang_C_2_CT_CT_456

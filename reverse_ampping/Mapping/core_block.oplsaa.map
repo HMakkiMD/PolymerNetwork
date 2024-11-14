@@ -1,0 +1,24 @@
+[ molecule ]
+COR
+
+[ martini ]
+COR1  COR2  COR3
+
+[ mapping ]
+oplsaa 
+
+[ atoms ]
+  1    C1M   COR1
+  2    N1M   COR1  COR2
+  3    N2M   COR1
+  4    C2M   COR2  
+  5    N3M   COR2  COR3
+  6    N4M   COR2  
+  7    C3M   COR3
+  8    N5M   COR3  COR1
+  9    N6M   COR3
+
+[ out ]
+N2M  C1M  N1M  N5M
+N4M  C2M  N3M  N1M
+N6M  C3M  N5M  N3M

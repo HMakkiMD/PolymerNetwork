@@ -1,0 +1,9 @@
+#include "oplsaa.ff/forcefield.itp"
+
+#include "product_atomistic.itp"
+
+[ system ]
+Mixture
+
+[ molecules ]
+Mixture    1
